@@ -32,6 +32,7 @@ namespace StudentManager
             public string Name { get; set; }
             public string Gender { get; set; }
             public string Class { get; set; }
+        public int Age { get; set; }
         }
 
         private void Form1_Load(object sender, EventArgs e)
