@@ -20,7 +20,9 @@ namespace StudentManager
         public Form1()
         {
             InitializeComponent();
+            cboGender.Items.Add("Khác");
         }
+    }
 
         // -----------------------
         // KHAI BÁO LỚP SINH VIÊN
